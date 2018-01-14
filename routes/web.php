@@ -17,8 +17,6 @@ Route::get('/', function () {
 
 Route::resource('/countries', 'CountriesController');
 
-Route::get('/passport', 'PassportController@index');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
