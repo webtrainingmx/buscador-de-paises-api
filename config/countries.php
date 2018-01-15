@@ -11,18 +11,18 @@ return [
     ],
 
     'hydrate' => [
-        'before' => true,
+        'before' => false,
 
-        'after' => true,
+        'after' => false,
 
         'elements' => [
             'flag' => true,
-            'currency' => true,
-            'states' => true,
-            'timezone' => true,
+            'currency' => false,
+            'states' => false,
+            'timezone' => false,
             'borders' => false,
-            'topology' => true,
-            'geometry' => true,
+            'topology' => false,
+            'geometry' => false,
             'collection' => true,
         ],
     ],

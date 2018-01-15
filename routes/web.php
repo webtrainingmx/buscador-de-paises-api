@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::resource('/countries', 'CountriesController');
+Route::get('/countries/search/{name}', 'CountriesController@search')->name('search');
 
 Auth::routes();
 
